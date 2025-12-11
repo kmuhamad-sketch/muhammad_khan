@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/base:ubuntu
+mcr.microsoft.com/devcontainers/universal:2-linux
 # Install Vue.js
 RUN apt-get update && \
     npm install -g @vue/cli
